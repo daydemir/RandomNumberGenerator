@@ -21,6 +21,7 @@
 @synthesize highInput = _highInput;
 @synthesize lowInput = _lowInput;
 @synthesize NumberOutput = _NumberOutput;
+@synthesize helloOutput = _helloOutput;
 
 
 - (void)viewDidLoad
@@ -48,5 +49,9 @@
     NSString *output = [NSString stringWithFormat:@"%d", randomNum];
     _NumberOutput.text = output;
     NSLog(output);
+}
+
+- (IBAction)helloPress:(id)sender {
+    _helloOutput.text = @"Hola";    
 }
 @end

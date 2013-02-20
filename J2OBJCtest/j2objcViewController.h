@@ -12,6 +12,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *highInput;
 @property (weak, nonatomic) IBOutlet UITextField *lowInput;
 @property (weak, nonatomic) IBOutlet UILabel *NumberOutput;
+@property (weak, nonatomic) IBOutlet UILabel *helloOutput;
 - (IBAction)RandomPress:(id)sender;
+- (IBAction)helloPress:(id)sender;
 
 @end
